@@ -35,7 +35,7 @@ struct WaveshaperTables
     }
 };
 
-const static WaveshaperTables globalWaveshaperTables;
+inline const WaveshaperTables globalWaveshaperTables;
 }
 
 #endif // SST_WAVESHAPERS_WAVESHAPERTABLES_H
